@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+#menusuperior{
+  background-color: #303030;
+}
+
+#titulo-menusuperior{
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 600;
+  padding-top: 175px;
+  margin-left: 50px;
+}
+
+#texto-menusuperior{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-left: 50px;
+  padding-bottom: 125px;
+}
+
+#menuinformacional{
+  background-color: #F9F9F9;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 75px 150px;
+}
+
+.textoinformativo{
+  font-size: 20px;
+}
+
+.textoinformativo span{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#secaoservico{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin: 75px 0 75px 50px;
+}
+
+#tituloservico{
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 175px;
+}
+
+#textoservico{
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+#secaoservico img:hover{
+  transform: scale(1.05);
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+#formulario{
+  text-align: center;
+  background-color: #303030;
+}
+
+#titulo-formulario{
+  padding: 75px 0 30px;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 500px;
+  height: 72px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  outline: none;
+}
+
+input:focus{
+  outline: 3px solid #C07212;
+  transition: 0.2s all ease-in-out;
+}
+
+input::placeholder{
+  color: #0000004D;
+}
+
+button{
+  width: 286px;
+  height: 74px;
+  margin-bottom: 75px;
+  margin-top: 20px;
+
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #C07212;
+  border: 0px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #d68419;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #301c0581;
+  transition-duration: 0.5s;
+}

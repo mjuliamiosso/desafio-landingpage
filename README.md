@@ -1,2 +1,4 @@
-# desafio-landingpage
-Esse é um desafio feito pelo curso de Tecnologia da Escola DNC.
+## Desafio 1 - Resolução
+
+### Link do site disponibilizado: 
+### Link da planilha de registro de informação: 
